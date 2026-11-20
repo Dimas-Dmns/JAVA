@@ -5,6 +5,23 @@ public class Vehiculo {
 	private String modelo;
 	private String anio;
 	private String valor;
+	
+	
+	
+	
+	public Vehiculo() {
+		System.out.println("Ingresa el metodo constructor:");
+	}
+	public Vehiculo(String marca) {
+		this.marca=marca;
+		System.out.println("Ingresa el metodo constructor:");
+	}
+	
+	public Vehiculo(String modelo, String marca , String anio) {
+		this.modelo=modelo;
+		this.anio= anio;
+		this.marca=marca;
+	}
 
 	public String getMarca() {
 		return marca;

@@ -30,5 +30,16 @@ public class VehiculoTest {
 		System.out.println("Modelo: " + v2.getModelo());
 		System.out.println("Anio:" + v2.getAnio());
 		System.out.println("Valor: " + v2.getValor());
+		
+		System.out.println("=========Vehiculo 3 : Creado=======");
+		Vehiculo v3 = new Vehiculo("Toyota");
+		System.out.println("Marca: " + v3.getMarca());
+	
+		System.out.println("=========Vehiculo 4 : Creado=======");
+
+		Vehiculo v4 = new Vehiculo("Toyota","El mejor","2011");
+		System.out.println("Modelo: " + v4.getModelo());
+		System.out.println("Anio:" + v4.getAnio());
+		System.out.println("Valor: " + v4.getValor());
 	}
 }
