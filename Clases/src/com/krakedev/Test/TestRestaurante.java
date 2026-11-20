@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.Test;
+
+import com.krakedev.Restaurante;
 
 public class TestRestaurante {
     public static void main(String[] args) {

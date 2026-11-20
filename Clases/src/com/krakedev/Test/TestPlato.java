@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.Test;
+
+import com.krakedev.Plato;
 
 public class TestPlato {
     public static void main(String[] args) {
